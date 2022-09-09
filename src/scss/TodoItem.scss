@@ -1,0 +1,28 @@
+.item-container {
+  .item-inner {
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 7%;
+    padding-right: 7%;
+    display: flex;
+
+    justify-content: space-between;
+    .item-title {
+      font-size: 32px;
+      font-weight: 500;
+      color: dodgerblue;
+    }
+    .item-title-checked {
+      text-decoration: line-through;
+    }
+    .right {
+      display: flex;
+      gap: 50px;
+      button {
+        border: none;
+        background-color: transparent;
+      }
+    }
+  }
+}
